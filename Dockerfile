@@ -1,4 +1,4 @@
-FROM lemaral/jnlp-slave-alpine-aws
+FROM alexldocker/jnlp-slave-alpine-aws
 User root
 
 RUN wget -q https://releases.hashicorp.com/terraform/0.9.11/terraform_0.9.11_linux_amd64.zip && \
